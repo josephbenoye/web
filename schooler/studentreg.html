@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Schooler</h1>
+    </div>
+    <h2>Student Registration</h2>
+    <form method="POST">
+        <input type="text" name="adminID" class="input" placeholder="Student ID">
+        <input type="text" name="name" class="input" placeholder="Full name">
+        <label id="dob">Date of Birth</label>
+        <input type="date" name="dob" class="input"><br>
+        <input type="text" name="job" class="input" placeholder="Job Title">
+        <label id="doj">Date of join</label>
+        <input type="date" name="doj" class="input"><br>
+        <p id="address">Address</p>
+        <input type="text" name="house" class="input" placeholder="House name">
+        <input type="text" name="street" class="input" placeholder="Street">
+        <input type="text" name="town" class="input" placeholder="Town"><br>
+        <label id="dis">District</label>
+        <select name="district" id="dist">
+            <option value="Kasargod">Kasargod</option>
+            <option value="Kannur">Kannur</option>
+            <option value="Wayanad">Wayanad</option>
+            <option value="Kozhikode" selected>Kozhikode</option>
+            <option value="Malapuram">Malapuram</option>
+            <option value="Thrissur">Thrissur</option>
+            <option value="Palakkad">Palakkad</option>
+            <option value="Eranakulam">Eranakulam</option>
+            <option value="Idukki">Idukki</option>
+            <option value="Kottayam">Kottayam</option>
+            <option value="Alapuzha">Alapuzha</option>
+            <option value="Pathanamthitta">Pathanamthitta</option>
+            <option value="Kollam">Kollam</option>
+            <option value="Thiruvanathapuram">Thiruvanathapuram</option>
+        </select>
+        <input type="text" name="pin" class="input" placeholder="Pin Code">    
+        <input type="submit" value="submit" id="subtn">
+    </form>
+</body>
+</html>

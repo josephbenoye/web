@@ -1,0 +1,333 @@
+/*----body-----*/
+body{
+  margin: 0;
+}
+/*----header----*/
+header{
+  background-color: #FFEF09;
+  overflow: auto;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+}
+.navbarheader a{
+  float:right;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 50px;
+  margin-top: 45px;
+  font-size: 20px;
+}
+header h1{
+  font-size: 45px;
+  margin-left: 50px;
+}
+/*-----front------*/
+.main{
+  margin-bottom: 300px;
+}
+.front-left-main {
+  font-family: 'Russo One', sans-serif;
+  margin-left: 50px;
+  font-size: 65px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.front-left-sub{
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
+  background-color: #FFEF09;
+  height: 125px;
+  width: 400px;
+  padding: 30px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+  color: white;
+
+}
+.front-left-main p{
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.front-left-sub a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.front-right img{
+  float: right;
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+
+}
+.front-right{
+  margin-right: 50px;
+  margin-top: 5px;
+}
+/*-----front page ends-------*/
+
+/*-----------second page---------*/
+.second-div-main{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 350px;
+}
+.second-div-left{
+  background-color: #FFEF09;
+  height: 335px;
+  width: 480px;
+}
+
+.vl {
+  border-left: 10px solid white;
+  height: 200px;
+  margin-right: 10px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 70px;
+  margin-right: 20px;;
+}
+.second-div-left p{
+  font-size: 45px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  padding-top: 85px;
+}
+
+.vly{
+  float: right;
+  border-left: 15px solid #FFEF09;
+  height: 335px;
+  margin-right: 120px;
+}
+.second-div-right img{
+  width: 40%;
+  height: 40%;
+  float: right;
+}
+/*------seond page ends-------*/
+
+/*--------third page-------------------*/
+
+/*------transmode----*/
+
+.transway{
+  border: 7px solid #FFEF09;
+  width: 330px;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: right;
+
+
+}
+.content img{
+  width: 85%;
+  height: 85%;
+  margin-left: 20px;
+  margin-top: 15px;
+
+}
+.transway .heading{
+  background-color: #FFEF09;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: -60px;
+}
+.transway .heading h3{
+  padding-top: 8px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+.content{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 28px;
+  padding-left: 5px;
+
+}
+.vl-y-hori{
+  border-top: 10px solid #FFEF09;
+  width: 330px;
+  height: 50px;
+  margin-top: 880px;
+  margin-left: 520px;
+}
+/*----------transmode ends--------------*/
+
+
+/*-------------testimonials------------------*/
+.testimonials h4{
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+.comment{
+  background-color: #EEEEEE;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  border-left: 15px solid #FFEF09;
+  float: right;
+  margin-right: 70px;
+  margin-left: 50px;
+}
+.comment img{
+  width: 30%;
+  height: 30%;
+  float: right;
+
+}
+.comment p{
+  font-size: 20px;
+  padding-left: 60px;
+  font-weight: bold;
+
+}
+.comment h6{
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+/*-----------testimonials ends-------------*/
+
+/*-----------contact begins--------------*/
+.contact{
+  margin-top: 600px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.contact-right-main{
+  float: right;
+}
+.contact-left{
+  background-color: #FFEF09;
+  height: 400px;
+  width: 600px;
+  margin-top: 60px;
+  float: left;
+  margin-left: 20px;
+}
+.vlycont{
+  border-left: 10px solid white;
+  height:200px;
+  margin-top: 100px;
+  margin-left: 30px;
+  float: left;
+  margin-right: 30px;
+}
+.contact-left p{
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-size: 55px;
+  padding-top: 15px;
+}
+.contact .heading{
+  background-color: #FFEF09;
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-bottom: -25px;
+}
+
+
+.contact .heading h4{
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-size: 30px;
+  padding-top: 7px;
+}
+.form{
+  border: 7px solid #FFEF09;
+  width: 400px;
+  height: 350px;
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  padding-top: 30px;
+}
+.form label{
+  font-size:30px;
+}
+.form1{
+  border: 5px solid #FFEF09;
+  border-radius: 5px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form1:hover{
+  font-style: italic;
+  border-radius: 30px;
+  border: 5px dashed red;
+}
+.callbutton{
+  background-color: #FFEF09;
+  color: white;
+  font-style: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border: 5px solid #FFEF09;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: 'Russo One', sans-serif;
+  margin-top: 10px;
+}
+.callbutton:hover{
+  background-color: white;
+  color: black;
+  border-style: dashed;
+  font-style: italic;
+  border-color: red;
+  border-radius: 30px;
+}
+.vlycont2{
+  border-left: 10px solid #FFEF09;
+  height: 350px;
+  float: right;
+  margin-right: 110px;
+  margin-top: 95px;
+}
+
+/*----------contact ends----------*/
+
+/*----------footer begins---------------*/
+.footer{
+  margin-top: 1200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  background-color: #FFEF09;
+  color: white;
+
+}
+.footer a{
+  float: right;
+  margin-right: 50px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.footer p{
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+/*---------footer ends--------------*/

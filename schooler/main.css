@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*-----------header----------*/
+.header{
+    width: auto;
+    color: #247DD9;
+    padding-top: 1px;
+    padding-left: 20px;
+    font-size: 30px;
+    border: 10px solid #247DD9;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    box-shadow:1px 5px 7px grey;
+    position:sticky;
+    top:0;
+}
+
